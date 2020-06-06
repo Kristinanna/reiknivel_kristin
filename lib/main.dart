@@ -117,7 +117,7 @@ class HomeScreen extends StatefulWidget {
           child: new RaisedButton(
             color: Colors.white,
             child: Text(takkiText,
-              style: TextStyle(fontSize: 40),
+              style: TextStyle(fontSize: 30),
             ),
             onPressed: () => takkiPressed(takkiText),
             padding: EdgeInsets.only(left: 85, top: 20, right: 85, bottom: 20),
